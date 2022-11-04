@@ -1,0 +1,47 @@
+.App{
+  font-family: sans-serif;
+}
+
+.App > h2{
+  font-size: 22px;
+  background-color: #188cd8;
+  color: #fff;
+  padding: 12px;
+  letter-spacing: 2px;
+  border-radius: 5px;
+  text-align: center;
+}
+
+.App > div > h2{
+  font-size: 18px;
+  display: flex;
+  justify-content: space-between;
+}
+.App > div > h3{
+  border-top: 1px solid #e1e1e1;
+  padding-top: 10px;
+  display: flex;
+  justify-content:end;
+}
+.product{
+  display: flex;
+  padding:10px;
+  margin: 0 0 10px 0;
+  border: 1px solid #e1e1e1;
+}
+.product img{
+  width: 140px;
+  margin: 0 40px 0 0;
+}
+.product button{
+  border: none;
+  background-color:#188cd8 ;
+  border-radius: 5px;
+  color: #fff;
+  padding: 4px 6px;
+  
+}
+
+.link{
+  color:#188cd8 ;
+}
